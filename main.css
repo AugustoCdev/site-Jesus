@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 
-#tema {
-    border-radius: 60px;
-    background-color:rgb(13, 29, 121);
-    color: rgb(250, 250, 250);
-    display: flex;
-    height: 80px ;
+header{
     padding: 16px 0;
+    background-color: rgb(220, 243, 51);
+    color: #fff;
 }
 
-h1{
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -23,15 +26,13 @@ ul
 {
     display:block;
     margin-top: 60px;
-    margin-right: 1600px;
     
 }
 
 
 
 .container{
-    max-width: 1280px;
-    width: 100% ;
+    width: 1366px;
     margin: 0 auto;
     
 }
